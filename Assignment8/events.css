@@ -1,0 +1,86 @@
+
+
+
+#game-container{
+	text-align: center;
+	margin-top: 50px;
+	color: white;
+	line-height:150px;
+}
+.boxes{
+	font-family: sans-serif, Crimson Pro;
+	font-size: 80px;
+	line-height:150px;
+	height: 150px;
+	width: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: -5px;
+	margin-top: -1px;
+}
+
+#first-up{
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;
+}
+
+#second-up{
+	border-bottom: 5px solid green;
+	border-right: 5px solid green;
+	border-left: 5px solid green;
+}
+#third-up{
+	border-bottom: 5px solid green;
+	border-left: 5px solid green;
+}
+#first-middle{
+	border-top: 5px solid green;
+	border-right: 5px solid green;
+	border-bottom: 5px solid green;
+	
+}
+#second-middle{
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	border-left: 5px solid green;
+	border-right: 5px solid green;
+}
+#third-middle{
+	border-top: 5px solid green;
+	border-bottom: 5px solid green;
+	border-left: 5px solid green;
+}
+#first-bottom{
+	border-top: 5px solid green;
+	border-right: 5px solid green;
+	
+}
+#second-bottom{
+	border-top: 5px solid green;
+	border-right: 5px solid green;
+	border-left: 5px solid green;
+}
+
+#third-bottom{
+	border-top: 5px solid green;
+	border-left: 5px solid green;
+}
+span{
+	display: inline-block;
+	width:100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+span.cross {
+	color: red;
+}
+span.circle{
+	color: black;
+}
+
+
+
+
+
+

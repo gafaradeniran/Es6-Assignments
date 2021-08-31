@@ -1,0 +1,130 @@
+	//Assignment 7
+
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+	<title>The DOM Assignment</title>
+
+	<style type="text/css">
+		#firstShape{
+		height: 50px;
+		width: 70px;
+		background-color: #ff0000;
+		}
+		#secondShape{
+		height: 50px;
+		width: 150px;
+		background-color: #0000ff;
+		}
+		#thirdShape{
+		height: 50px;
+		width: 250px;
+		background-color: #008000;
+		} 
+		#fourthShape{
+		height: 70px;
+		width: 200px;
+		background-color: #ffff00;
+		}
+		#fifthShape{
+		height: 70px;
+		width: 250px;
+		background-color: #ffa500;
+		}
+		#sixthShape{
+		height: 80px;
+		width: 450px;
+		background-color: #6f4e37;
+		}
+		#seventhShape{
+		height: 90px;
+		width: 470px;
+		background-color: #00ffff;
+		}
+		#eigthShape{
+		height: 50px;
+		width: 500px;
+		background-color: #800080;
+		}
+		#ninethShape{
+		height: 100px;
+		width: 520px;
+		background-color: #ff00ff;
+		}
+		#tenthShape{
+		height: 100px;
+		width: 550px;
+		background-color: #000000;
+		}
+		#rectangleWrapper{
+		padding: 50px 50px 0px 50px;
+		
+		}
+		
+	</style>
+
+	</head>
+
+	<body>
+	<h1> My Favourite Colours</h1>
+		<h2>This page contains different regular shapes and colours</h2>
+	
+		<div id ="rectangleWrapper">
+			<p class ="rectangleId" id ="firstShape"></p>
+				<p>#ff0000</p>
+			
+			<p class ="rectangleId" id ="secondShape"></p>
+				<p>#0000ff</p>
+			
+			<p class ="rectangleId" id ="thirdShape"></p>
+				<p>#008000</p>
+			
+			<p class ="rectangleId" id ="fourthShape"></p>
+				<p>#ffff00</p>
+			
+			<p class ="rectangleId" id ="fifthShape"></p>
+				<p>#ffa500</p>
+			
+			<p class ="rectangleId" id ="sixthShape"></p>
+				<p>#6f4e37</p>
+			
+			<p class ="rectangleId" id ="seventhShape"></p>
+				<p>#00ffff</p>
+			
+			<p class ="rectangleId" id ="eigthShape"></p>
+				<p>#800080</p>
+			
+			<p class ="rectangleId" id ="ninethShape"></p>
+				<p>#ff00ff</p>
+			
+			<p class ="rectangleId" id ="tenthShape"></p>
+				<p>#000000</p>
+	
+	
+		</div>
+		
+
+	<script>
+		function displayId(){
+		
+		console.log("Here are all the IDs:");
+	
+		const divId = document.getElementById("rectangleWrapper");
+		const rectIds = rectangleWrapper.getElementsByClassName("rectangleId");
+		
+		for (rectangles of rectangleIds){
+			console.log(rectangles.id);
+		}
+		
+			
+		}
+	
+	</script>
+	
+
+	</body>
+
+
+
+
+	</html>
